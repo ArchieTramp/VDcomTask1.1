@@ -24,7 +24,6 @@ public class task1way1 {
 
     public Serializable recurMethod(int n) {
         int stopper = 0;
-        ArrayList<String> list2 = new ArrayList<>();
         if (n <= 0) {
             return stopper;
         }
