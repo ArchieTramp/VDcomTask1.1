@@ -4,6 +4,10 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * New Way - Recurse modification
+ */
+
 public class task1way1 {
 
     static ArrayList<String> list = new ArrayList<>();

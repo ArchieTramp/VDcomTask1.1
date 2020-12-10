@@ -3,6 +3,19 @@ package VDcom;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ *На вход приложение получает целое число больше 0 (n), далее в консоль выводится
+ * следующее, все числа от 1 до n, при этом:
+ * ● Если число кратно 3, выводится Foo;
+ * ● Если число кратно 5, выводится Bar;
+ * ● Если число кратно и 3, и 5, выводится FooBar;
+ * ● Если число не кратно 3 или 5, выводится само число.
+ * Необходимо предоставить минимум три разных решения, используя разные подходы
+ * (минимум ветвлений, без циклов и т.п.).
+ *
+ * Start way - classic principles
+ */
+
 public class task1way0 {
     public static void main(String[] args) throws InputMismatchException {
 
