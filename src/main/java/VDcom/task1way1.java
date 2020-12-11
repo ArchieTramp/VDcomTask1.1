@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 /**
  * New Way - Recurse modification
+ *
+ * 2 способ - реализация через рекурсию, нелогичное действие, перегружащее память, но новый способ
  */
 
 public class task1way1 {
@@ -55,8 +57,8 @@ public class task1way1 {
             a[n - i - 1] = a[i];
             a[i] = String.valueOf(temp);
         }
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
+        for (String s : a) {
+            System.out.println(s);
 
         }
 
