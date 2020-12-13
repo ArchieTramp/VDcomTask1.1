@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
+ * @author Artur Gilyazov
+ * задание 1 для VDcom
  * New Way - Recurse modification
  *
  * 2 способ - реализация через рекурсию, нелогичное действие, перегружащее память, но новый способ
