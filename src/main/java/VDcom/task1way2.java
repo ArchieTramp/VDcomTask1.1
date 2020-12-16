@@ -8,13 +8,12 @@ import java.util.Scanner;
  * задание 1 для VDcom
  * Last Way - ternary operator
  *
- * 3 способ - реализация через тернарный оператор, пришел в голову самым последним,
- * но выглядит самым изысканным
+ * 3 способ - реализация через тернарный оператор
  */
 
 public class task1way2 {
     public static void main(String[] args) {
-        System.out.println("проверка тернатрного оператора, введи число");
+        System.out.println("введи число");
 
         Scanner scanner = new Scanner(System.in);
         int numb = scanner.nextInt();
@@ -23,11 +22,11 @@ public class task1way2 {
             String j;
 
             j = ((i % 3) + (i % 5) == 0) ? "FooBar" : (
-                     ((i % 3 == 0)) ? "Foo" : (
-                             ((i % 5 == 0)) ? "Bar" :
+                    ((i % 3 == 0)) ? "Foo" : (
+                            ((i % 5 == 0)) ? "Bar" :
                                     String.valueOf(i)));
 
-           System.out.println(j);
+            System.out.println(j);
         }
     }
 }
